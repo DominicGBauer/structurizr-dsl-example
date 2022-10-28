@@ -1,0 +1,374 @@
+{
+  "id" : 1,
+  "name" : "Yoco",
+  "description" : "This is an example workspace to illustrate the key features of Structurizr, via the DSL, based around a minimal Yoco system.",
+  "revision" : 0,
+  "lastModifiedDate" : "2022-10-28T19:23:18Z",
+  "lastModifiedAgent" : "structurizr-web/2848/diagram",
+  "properties" : {
+    "structurizr.dsl" : "d29ya3NwYWNlICJZb2NvIiAiVGhpcyBpcyBhbiBleGFtcGxlIHdvcmtzcGFjZSB0byBpbGx1c3RyYXRlIHRoZSBrZXkgZmVhdHVyZXMgb2YgU3RydWN0dXJpenIsIHZpYSB0aGUgRFNMLCBiYXNlZCBhcm91bmQgYSBtaW5pbWFsIFlvY28gc3lzdGVtLiIgewoKICAgIG1vZGVsIHsKICAgICAgICBjdXN0b21lciA9IHBlcnNvbiAiWW9jbyBDdXN0b21lciIgIllvY28gbWVyY2hhbnQgd2hvIGhhcyBhbiBhY3RpdmUgY2FyZCBtYWNoaW5lIiAiQ3VzdG9tZXIiCgogICAgICAgIGVudGVycHJpc2UgIllvY28iIHsKICAgICAgICAgICAgc3VwcG9ydFN0YWZmID0gcGVyc29uICJDdXN0b21lciBTdXBwb3J0IiAiQ3VzdG9tZXIgc3VwcG9ydCB3aXRoaW4gWW9jby4iICJTdXBwb3J0IFN0YWZmIgoKICAgICAgICAgICAgc2FsZXNGb3JjZSA9IHNvZnR3YXJlc3lzdGVtICJTYWxlc0ZvcmNlIiAiVGhlIHN5c3RlbSB1c2VkIGJ5IG9wZXJhdGlvbnMgYW5kIGNvbW1lcmNpYWwgdG8gaGFuZGxlIGN1c3RvbWVyIGludGVyYWN0aW9ucy4iICJFeGlzdGluZyBTeXN0ZW0iCiAgICAgICAgICAgIGNhcGl0YWwgPSBzb2Z0d2FyZXN5c3RlbSAiQ2FwaXRhbCIgIlNlcnZpY2UgdGhhdCBoYW5kbGVzIHNvbWUgbWVyaGNhbnQgY2FwaXRhbCBvZmZlcnMiICJFeGlzdGluZyBTeXN0ZW0iIHsKICAgICAgICAgICAgICAgICFkb2NzIGRvY3MKICAgICAgICAgICAgICAgICFhZHJzIGFkcnMKICAgICAgICAgICAgfQoKICAgICAgICAgICAgY29yZSA9IHNvZnR3YXJlc3lzdGVtICJDb3JlIFN5c3RlbSIgIkhhbmRsZXMgY3VzdG9tZXJzIGluZm9ybWF0aW9uIGFib3V0IHRoZWlyIGJhbmsgYWNjb3VudHMsIGFuZCBtYWtlIHBheW1lbnRzLiIgewogICAgICAgICAgICAgICAgIWRvY3MgZG9jcwogICAgICAgICAgICAgICAgIWFkcnMgYWRycwogICAgICAgICAgICAgICAgbW9iaWxlQXBwID0gY29udGFpbmVyICJNb2JpbGUgQXBwIC8gUE9TIC8gUmVnaXN0ZXIiICJQcm92aWRlcyBhIGxpbWl0ZWQgc3Vic2V0IG9mIHRoZSBJbnRlcm5ldCBiYW5raW5nIGZ1bmN0aW9uYWxpdHkgdG8gY3VzdG9tZXJzIHZpYSB0aGVpciBtb2JpbGUgZGV2aWNlLiIgIlJlYWN0IE5hdGl2ZSIgIk1vYmlsZSBBcHAiCiAgICAgICAgICAgICAgICB3ZWJBcHBsaWNhdGlvbiA9IGNvbnRhaW5lciAiU2luZ2xlIFBhZ2UgQXBwbGljYXRpb24gLyBQb3J0YWwiICJEZWxpdmVycyB0aGUgc3RhdGljIGNvbnRlbnQgYW5kIHRoZSBtZXJjaGFudHMgZGFzaGJvYXJkIHNpbmdsZSBwYWdlIGFwcGxpY2F0aW9uLiIgIlJlYWN0IiAiV2ViIEJyb3dzZXIiCiAgICAgICAgICAgICAgICBhZG1pbldlYkFwcGxpY2F0aW9uID0gY29udGFpbmVyICJBZG1pbiBXZWIgQXBwbGljYXRpb24iICJEYXNoYm9hcmQgZm9yIGFkbWluaXN0cmF0aW9uIG9mIG1lcmNoYW50IiAiUHl0aG9uL1JlYWN0IiAiV2ViIEJyb3dzZXIiCiAgICAgICAgICAgICAgICBhcGlBcHBsaWNhdGlvbiA9IGNvbnRhaW5lciAiQVBJIEFwcGxpY2F0aW9uIiAiSGFuZGxlcyBBUEkgY2FsbHMiICJTY2FsYSIgIkJhY2tlbmQiCiAgICAgICAgICAgICAgICBkYXRhYmFzZSA9IGNvbnRhaW5lciAiRGF0YWJhc2UiICJTdG9yZXMgdXNlciByZWdpc3RyYXRpb24gaW5mb3JtYXRpb24sIGhhc2hlZCBhdXRoZW50aWNhdGlvbiBjcmVkZW50aWFscywgYWNjZXNzIGxvZ3MsIGV0Yy4iICJQb3N0Z3JlcyBEYXRhYmFzZSBTY2hlbWEiICJEYXRhYmFzZSIKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgIyByZWxhdGlvbnNoaXBzIGJldHdlZW4gcGVvcGxlIGFuZCBzb2Z0d2FyZSBzeXN0ZW1zCiAgICAgICAgY3VzdG9tZXIgLT4gY29yZSAiVmlld3MgYWNjb3VudCBiYWxhbmNlcywgYW5kIG1ha2VzIHBheW1lbnRzIHVzaW5nIgogICAgICAgIHN1cHBvcnRTdGFmZiAtPiBjb3JlICJVc2VzIgogICAgICAgIHNhbGVzRm9yY2UgLT4gY3VzdG9tZXIgIlNlbmRzIGUtbWFpbHMgdG8iCiAgICAgICAgY3VzdG9tZXIgLT4gc3VwcG9ydFN0YWZmICJBc2tzIHF1ZXN0aW9ucyB0byIgIlRlbGVwaG9uZSIKCiAgICAgICAgIyByZWxhdGlvbnNoaXBzIHRvL2Zyb20gY29udGFpbmVycwogICAgICAgIGNvcmUgLT4gc2FsZXNGb3JjZSAiR2V0cyBhY2NvdW50IGluZm9ybWF0aW9uIGZyb20sIGFuZCBtYWtlcyBwYXltZW50cyB1c2luZyIKICAgICAgICBjYXBpdGFsIC0+IGNvcmUgIlNlbmRzIEx1bGFsZW5kIG9mZmVycyB0byIKICAgICAgICBjdXN0b21lciAtPiB3ZWJBcHBsaWNhdGlvbiAiVmlld3MgZGFzaGJvYXJkIgogICAgICAgIHN1cHBvcnRTdGFmZiAtPiBhZG1pbldlYkFwcGxpY2F0aW9uICJWaXNpdHMgYmlnYmFuay5jb20vaWIgdXNpbmciICJIVFRQUyIKICAgICAgICBjdXN0b21lciAtPiBtb2JpbGVBcHAgIlZpZXdzIGFjY291bnQgYmFsYW5jZXMsIGFuZCBtYWtlcyBwYXltZW50cyB1c2luZyIKICAgIH0KCiAgICB2aWV3cyB7CiAgICAgICAgc3lzdGVtbGFuZHNjYXBlICJTeXN0ZW1MYW5kc2NhcGUiIHsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAgIGF1dG9MYXlvdXQgbHIKICAgICAgICB9CgogICAgICAgIGNvbnRhaW5lciBjb3JlICJDb250YWluZXJzIiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICBhbmltYXRpb24gewogICAgICAgICAgICAgICAgY3VzdG9tZXIgc2FsZXNGb3JjZQogICAgICAgICAgICAgICAgd2ViQXBwbGljYXRpb24KICAgICAgICAgICAgICAgIGFkbWluV2ViQXBwbGljYXRpb24KICAgICAgICAgICAgICAgIG1vYmlsZUFwcAogICAgICAgICAgICAgICAgYXBpQXBwbGljYXRpb24KICAgICAgICAgICAgICAgIGRhdGFiYXNlCiAgICAgICAgICAgIH0KICAgICAgICAgICAgYXV0b0xheW91dCBscgogICAgICAgIH0KCiAgICAgICAgc3R5bGVzIHsKICAgICAgICAgICAgZWxlbWVudCAiUGVyc29uIiB7CiAgICAgICAgICAgICAgICBjb2xvciAjZmZmZmZmCiAgICAgICAgICAgICAgICBmb250U2l6ZSAyMgogICAgICAgICAgICAgICAgc2hhcGUgUGVyc29uCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiQ3VzdG9tZXIiIHsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgIzA4NDI3YgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIkJhbmsgU3RhZmYiIHsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgIzk5OTk5OQogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIlNvZnR3YXJlIFN5c3RlbSIgewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjMTE2OGJkCiAgICAgICAgICAgICAgICBjb2xvciAjZmZmZmZmCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiRXhpc3RpbmcgU3lzdGVtIiB7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICM5OTk5OTkKICAgICAgICAgICAgICAgIGNvbG9yICNmZmZmZmYKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJDb250YWluZXIiIHsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgIzQzOGRkNQogICAgICAgICAgICAgICAgY29sb3IgI2ZmZmZmZgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIldlYiBCcm93c2VyIiB7CiAgICAgICAgICAgICAgICBzaGFwZSBXZWJCcm93c2VyCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiTW9iaWxlIEFwcCIgewogICAgICAgICAgICAgICAgc2hhcGUgTW9iaWxlRGV2aWNlTGFuZHNjYXBlCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiRGF0YWJhc2UiIHsKICAgICAgICAgICAgICAgIHNoYXBlIEN5bGluZGVyCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiQ29tcG9uZW50IiB7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICM4NWJiZjAKICAgICAgICAgICAgICAgIGNvbG9yICMwMDAwMDAKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJGYWlsb3ZlciIgewogICAgICAgICAgICAgICAgb3BhY2l0eSAyNQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQp9Cg=="
+  },
+  "configuration" : { },
+  "model" : {
+    "enterprise" : {
+      "name" : "Yoco"
+    },
+    "people" : [ {
+      "id" : "2",
+      "tags" : "Element,Person,Support Staff",
+      "name" : "Customer Support",
+      "description" : "Customer support within Yoco.",
+      "relationships" : [ {
+        "id" : "18",
+        "tags" : "Relationship",
+        "sourceId" : "2",
+        "destinationId" : "8",
+        "description" : "Visits bigbank.com/ib using",
+        "technology" : "HTTPS"
+      }, {
+        "id" : "12",
+        "tags" : "Relationship",
+        "sourceId" : "2",
+        "destinationId" : "5",
+        "description" : "Uses"
+      } ],
+      "location" : "Internal"
+    }, {
+      "id" : "1",
+      "tags" : "Element,Person,Customer",
+      "name" : "Yoco Customer",
+      "description" : "Yoco merchant who has an active card machine",
+      "relationships" : [ {
+        "id" : "17",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "7",
+        "description" : "Views dashboard"
+      }, {
+        "id" : "11",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "5",
+        "description" : "Views account balances, and makes payments using"
+      }, {
+        "id" : "14",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "2",
+        "description" : "Asks questions to",
+        "technology" : "Telephone"
+      }, {
+        "id" : "19",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "6",
+        "description" : "Views account balances, and makes payments using"
+      } ],
+      "location" : "External"
+    } ],
+    "softwareSystems" : [ {
+      "id" : "3",
+      "tags" : "Element,Software System,Existing System",
+      "name" : "SalesForce",
+      "description" : "The system used by operations and commercial to handle customer interactions.",
+      "relationships" : [ {
+        "id" : "13",
+        "tags" : "Relationship",
+        "sourceId" : "3",
+        "destinationId" : "1",
+        "description" : "Sends e-mails to"
+      } ],
+      "location" : "Internal",
+      "documentation" : { }
+    }, {
+      "id" : "5",
+      "tags" : "Element,Software System",
+      "name" : "Core System",
+      "description" : "Handles customers information about their bank accounts, and make payments.",
+      "relationships" : [ {
+        "id" : "15",
+        "tags" : "Relationship",
+        "sourceId" : "5",
+        "destinationId" : "3",
+        "description" : "Gets account information from, and makes payments using"
+      } ],
+      "location" : "Internal",
+      "containers" : [ {
+        "id" : "10",
+        "tags" : "Element,Container,Database",
+        "name" : "Database",
+        "description" : "Stores user registration information, hashed authentication credentials, access logs, etc.",
+        "technology" : "Postgres Database Schema"
+      }, {
+        "id" : "9",
+        "tags" : "Element,Container,Backend",
+        "name" : "API Application",
+        "description" : "Handles API calls",
+        "technology" : "Scala"
+      }, {
+        "id" : "6",
+        "tags" : "Element,Container,Mobile App",
+        "name" : "Mobile App / POS / Register",
+        "description" : "Provides a limited subset of the Internet banking functionality to customers via their mobile device.",
+        "technology" : "React Native"
+      }, {
+        "id" : "7",
+        "tags" : "Element,Container,Web Browser",
+        "name" : "Single Page Application / Portal",
+        "description" : "Delivers the static content and the merchants dashboard single page application.",
+        "technology" : "React"
+      }, {
+        "id" : "8",
+        "tags" : "Element,Container,Web Browser",
+        "name" : "Admin Web Application",
+        "description" : "Dashboard for administration of merchant",
+        "technology" : "Python/React"
+      } ],
+      "documentation" : {
+        "sections" : [ {
+          "title" : "Context",
+          "content" : "## Context\n\nYoco sells card machines\n",
+          "format" : "Markdown",
+          "filename" : "context.md",
+          "order" : 1
+        } ],
+        "decisions" : [ {
+          "title" : "Record architecture decisions",
+          "content" : "1. Record architecture decisions\n   Date: 2020-06-05\n\nStatus\nAccepted\n\nContext\nWe need to record the architectural decisions made on this project.\n\nDecision\nWe will use Architecture Decision Records, as described by Michael Nygard in this article: http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions\n\nConsequences\nSee Michael Nygard's article, linked above.\n",
+          "format" : "Markdown",
+          "id" : "1",
+          "date" : "2022-10-28T19:23:13Z",
+          "status" : "Proposed"
+        } ]
+      }
+    }, {
+      "id" : "4",
+      "tags" : "Element,Software System,Existing System",
+      "name" : "Capital",
+      "description" : "Service that handles some merhcant capital offers",
+      "relationships" : [ {
+        "id" : "16",
+        "tags" : "Relationship",
+        "sourceId" : "4",
+        "destinationId" : "5",
+        "description" : "Sends Lulalend offers to"
+      } ],
+      "location" : "Internal",
+      "documentation" : {
+        "sections" : [ {
+          "title" : "Context",
+          "content" : "## Context\n\nYoco sells card machines\n",
+          "format" : "Markdown",
+          "filename" : "context.md",
+          "order" : 1
+        } ],
+        "decisions" : [ {
+          "title" : "Record architecture decisions",
+          "content" : "1. Record architecture decisions\n   Date: 2020-06-05\n\nStatus\nAccepted\n\nContext\nWe need to record the architectural decisions made on this project.\n\nDecision\nWe will use Architecture Decision Records, as described by Michael Nygard in this article: http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions\n\nConsequences\nSee Michael Nygard's article, linked above.\n",
+          "format" : "Markdown",
+          "id" : "1",
+          "date" : "2022-10-28T19:23:13Z",
+          "status" : "Proposed"
+        } ]
+      }
+    } ]
+  },
+  "documentation" : { },
+  "views" : {
+    "systemLandscapeViews" : [ {
+      "key" : "SystemLandscape",
+      "order" : 1,
+      "paperSize" : "A4_Landscape",
+      "dimensions" : {
+        "width" : 2725,
+        "height" : 2254
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "LeftRight",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "enterpriseBoundaryVisible" : true,
+      "relationships" : [ {
+        "id" : "16"
+      }, {
+        "id" : "15"
+      }, {
+        "id" : "14",
+        "vertices" : [ {
+          "x" : 449,
+          "y" : 1465
+        }, {
+          "x" : 299,
+          "y" : 1315
+        }, {
+          "x" : 299,
+          "y" : 986
+        } ]
+      }, {
+        "id" : "13",
+        "vertices" : [ {
+          "x" : 1753,
+          "y" : 1436
+        } ]
+      }, {
+        "id" : "11"
+      }, {
+        "id" : "12"
+      } ],
+      "elements" : [ {
+        "id" : "1",
+        "x" : 578,
+        "y" : 1586
+      }, {
+        "id" : "2",
+        "x" : 578,
+        "y" : 286
+      }, {
+        "id" : "3",
+        "x" : 2053,
+        "y" : 986
+      }, {
+        "id" : "4",
+        "x" : 553,
+        "y" : 986
+      }, {
+        "id" : "5",
+        "x" : 1303,
+        "y" : 986
+      } ]
+    } ],
+    "containerViews" : [ {
+      "softwareSystemId" : "5",
+      "key" : "Containers",
+      "order" : 2,
+      "paperSize" : "A4_Portrait",
+      "dimensions" : {
+        "width" : 2370,
+        "height" : 3358
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "LeftRight",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "animations" : [ {
+        "order" : 1,
+        "elements" : [ "1" ]
+      }, {
+        "order" : 2,
+        "elements" : [ "7" ],
+        "relationships" : [ "17" ]
+      }, {
+        "order" : 3,
+        "elements" : [ "8" ]
+      }, {
+        "order" : 4,
+        "elements" : [ "6" ],
+        "relationships" : [ "19" ]
+      }, {
+        "order" : 5,
+        "elements" : [ "9" ]
+      }, {
+        "order" : 6,
+        "elements" : [ "10" ]
+      } ],
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "relationships" : [ {
+        "id" : "18"
+      }, {
+        "id" : "17"
+      }, {
+        "id" : "14"
+      }, {
+        "id" : "19",
+        "vertices" : [ {
+          "x" : 908,
+          "y" : 850
+        } ]
+      } ],
+      "elements" : [ {
+        "id" : "1",
+        "x" : 208,
+        "y" : 879
+      }, {
+        "id" : "2",
+        "x" : 908,
+        "y" : 1533
+      }, {
+        "id" : "6",
+        "x" : 1608,
+        "y" : 329
+      }, {
+        "id" : "7",
+        "x" : 1608,
+        "y" : 929
+      }, {
+        "id" : "8",
+        "x" : 1608,
+        "y" : 1529
+      }, {
+        "id" : "9",
+        "x" : 1608,
+        "y" : 2129
+      }, {
+        "id" : "10",
+        "x" : 1608,
+        "y" : 2729
+      } ]
+    } ],
+    "configuration" : {
+      "branding" : { },
+      "styles" : {
+        "elements" : [ {
+          "tag" : "Person",
+          "color" : "#ffffff",
+          "fontSize" : 22,
+          "shape" : "Person"
+        }, {
+          "tag" : "Customer",
+          "background" : "#08427b"
+        }, {
+          "tag" : "Bank Staff",
+          "background" : "#999999"
+        }, {
+          "tag" : "Software System",
+          "background" : "#1168bd",
+          "color" : "#ffffff"
+        }, {
+          "tag" : "Existing System",
+          "background" : "#999999",
+          "color" : "#ffffff"
+        }, {
+          "tag" : "Container",
+          "background" : "#438dd5",
+          "color" : "#ffffff"
+        }, {
+          "tag" : "Web Browser",
+          "shape" : "WebBrowser"
+        }, {
+          "tag" : "Mobile App",
+          "shape" : "MobileDeviceLandscape"
+        }, {
+          "tag" : "Database",
+          "shape" : "Cylinder"
+        }, {
+          "tag" : "Component",
+          "background" : "#85bbf0",
+          "color" : "#000000"
+        }, {
+          "tag" : "Failover",
+          "opacity" : 25
+        } ]
+      },
+      "terminology" : { },
+      "lastSavedView" : "SystemLandscape"
+    }
+  }
+}
